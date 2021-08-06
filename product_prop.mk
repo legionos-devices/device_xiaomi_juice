@@ -20,6 +20,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.hwui.renderer=skiagl \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     debug.sf.latch_unsignaled=1 \
+    ro.surface_flinger.has_wide_color_display=false \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
 
