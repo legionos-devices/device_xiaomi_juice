@@ -50,7 +50,6 @@ TARGET_BOOTLOADER_BOARD_NAME := bengal
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
-
 # Display
 TARGET_USES_HWC2 := true
 
@@ -166,6 +165,7 @@ BUILD_WITHOUT_VENDOR := true
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
